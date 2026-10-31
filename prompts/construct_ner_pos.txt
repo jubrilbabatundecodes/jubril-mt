@@ -1,0 +1,26 @@
+### Content
+{Content}
+
+### Instruction
+- Create 10 questions asking for every phrase that matches a specified part of speech (such as nouns or verbs) or named-entity type (such as people or dates) in a particular paragraph.
+- Identify each paragraph by its order ("first," "second," and so on) and a short description of its subject.
+- Make each question clear enough for an elementary-school student to locate the paragraph.
+- You may ask more than one question about a paragraph.
+- Tell the reader to list answers separated by commas, then provide the correct answer after each question.
+
+### Format
+Use this structure for each item:
+Type: NER/POS
+Question: ...
+Answer: ...
+
+### Example
+Type: POS
+Question: List all the nouns in the first paragraph. Your answers should be separated by a comma.
+Answer: Pick, run, go, sell, buy, love.
+
+Type: NER
+Question: List all the organizations in the third paragraph that mention Susan. Your answers should be separated by a comma.
+Answer: World Health Organization, Harvard University.
+
+### Output

@@ -1,0 +1,22 @@
+### Instruction
+Write a fictional {media} about {topic} in approximately 250-300 words. Invent the people, places, and objects; do not present them as real historical entities.
+
+Use this process:
+1. **Invent**: Create original characters, settings, and objects that have no basis in real historical entities.
+
+2. **Plan**: Briefly organize the main ideas and events.
+
+3. **Draft**: Write the piece using your plan and stay within the requested length.
+
+4. **Revise**: Improve clarity, originality, and flow, and check grammar and spelling.
+
+5. **Finalize**: Return a polished, engaging version.
+
+Return only the finished piece.
+
+### Format
+Follow this format:
+Topic: ...
+{content}
+
+### Output

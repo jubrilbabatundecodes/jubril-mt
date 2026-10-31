@@ -1,0 +1,15 @@
+Write one additional user-assistant exchange that builds naturally on the conversation so far. The user's question should refer to a relevant point in the assistant's previous response, creating a connected discussion:
+
+### Dialogue
+{history}
+
+### Instruction
+Continue the conversation about {topic}. Make the new user question depend on a specific earlier assistant response: without that context, a reader should not be able to fully understand the question. Keep the exchange coherent and make the connection clear.
+
+### Format
+Return a JSON object with these fields:
+{
+    "Rationale": <Explain how the user follows up the Assistant's response and which turn it is. Also, explain why it is related to {topic}>,
+    "User": <The user's instruction or question.>,
+    "Assistant": <The assistant's response.>
+}
