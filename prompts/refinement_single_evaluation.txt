@@ -1,0 +1,21 @@
+Assess the response below against the article and the stated constraints. Assign a whole-number score from 1 to 10, considering helpfulness, relevance, accuracy, depth, creativity, and compliance with the constraints. For word-count or sentence-count requirements, use the supplied counts when deciding whether the response meets them. Explain your reasoning before stating the score.
+
+Article:
+{content}
+
+Response:
+{response}
+
+Response word count: {num_words}
+Response sentence count: {num_sent}
+
+Constraints:
+{constraints}
+
+Return only a JSON object in this format:
+```json
+{
+  "Rationale": "<Explain the rationale of your score.>",
+  "Score": <An integer score from 1 to 10.>
+}
+```
