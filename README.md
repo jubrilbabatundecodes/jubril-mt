@@ -8,8 +8,6 @@
   <a href="https://github.com/jubrilbabatundecodes/jubril-mt"><strong>Jubril-MT repository</strong></a>
   •
   <a href="https://arxiv.org/abs/2401.16745"><strong>Original paper</strong></a>
-  •
-  <a href="https://huggingface.co/datasets/wckwan/MT-Eval"><strong>Dataset</strong></a>
 </div>
 
 ## About Jubril-MT
@@ -86,7 +84,7 @@ pip install flash-attn --no-build-isolation
 
 ## Load the dataset
 
-Jubril-MT loads the original MT-Eval dataset from its Hugging Face publisher. Each dataset configuration represents a task:
+Jubril-MT loads the original MT-Eval task configurations with the Hugging Face Datasets library. Each configuration represents a task:
 
 ```python
 from datasets import load_dataset
