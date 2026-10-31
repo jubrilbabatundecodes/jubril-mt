@@ -1,0 +1,14 @@
+### Content
+{Content}
+
+### Instruction
+- Write 10 challenging question-and-answer pairs that test comprehension of the text.
+- Ask factual questions with specific answers found in the text; avoid open-ended questions.
+- Keep each answer brief: provide keywords or short phrases, not full sentences.
+
+### Format
+Use this structure for every pair:
+Question: ...
+Answer: ...
+
+### Output

@@ -1,0 +1,28 @@
+### Instruction
+1. Act as a prompt-design specialist. Create five consecutive refinements of the supplied instruction, making each stage more demanding than the one before it.
+2. At every stage, add or adjust constraints that increase difficulty. You may narrow the subject, raise response-quality expectations, set a tone or style, impose length or format rules, or add other creative requirements. Do not use poetry-related constraints.
+3. Keep each revised instruction brief and conversational. Build on earlier instructions with concise references (such as "Now focus on..." or "Also include...") rather than repeating everything.
+4. Preserve every earlier constraint unless a later refinement explicitly changes it.
+5. For each stage, explain why it is harder, state the revised instruction, and provide an example response.
+
+### Format
+- Present the refinements as a list of JSON objects.
+- Use only `Rationale`, `Instruction`, and `Answer` as keys.
+- Your refinements should clearly build upon the last without restating past instructions.
+
+### Input
+Starting from the task below, produce five increasingly challenging refinements:
+
+{instruction}
+
+Initial instruction:
+```json
+{
+    "Rationale": "{rationale}",
+    "Instruction": "{instruction}",
+    "Answer": "{answer}"
+}
+```
+
+### Output
+Return only the list of five refinements as JSON. Do not include the initial instruction or any surrounding text.
