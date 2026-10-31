@@ -1,0 +1,15 @@
+Evaluate the assistant's final response in the conversation below against the stated constraints. Give a whole-number score from 1 to 10, considering helpfulness, relevance, accuracy, depth, creativity, and level of detail. When a user request specifies a word or sentence count, use the supplied counts to determine whether the response meets it. Explain your reasoning before stating the score.
+
+Conversation:
+{conversation}
+
+Response word count: {num_words}
+Response sentence count: {num_sent}
+
+Return only a JSON object in this format:
+```json
+{
+  "Rationale": "<Explain the rationale of your score.>",
+  "Score": <An integer score from 1 to 10.>
+}
+```

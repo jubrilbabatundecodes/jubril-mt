@@ -1,0 +1,24 @@
+### Content
+{Content}
+
+### Instruction
+- For every paragraph in the content, write an instruction to translate that paragraph into Chinese and provide the translation.
+- Identify the paragraph by its order ("first," "second," and so on) and a short description of its subject.
+- Make each instruction clear enough for an elementary-school student to identify the paragraph.
+
+### Format
+Use this structure for each paragraph:
+Instruction: ...
+Translation: ...
+
+### Example
+Instruction: Translate the first paragraph regarding apples in Chinese.
+Translation: ...
+
+Instruction: Translate the second paragraph that mentions Susan in Chinese.
+Translation: ...
+
+Instruction: Translate the third paragraph detailing the frightening incident in Chinese.
+Translation: ...
+
+### Output
