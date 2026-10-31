@@ -1,0 +1,13 @@
+### Content
+{content}
+
+### Instruction
+- Summarize the text in at most 150 words.
+- Keep the summary clear, concise, and coherent.
+- Do not add commentary or any material beyond the summary.
+
+### Format
+Use this exact structure:
+Summary: ...
+
+### Output
